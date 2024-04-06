@@ -10,5 +10,5 @@ conn.sendFile(m.chat, link, 'error.jpg', `🔎 *النتيجه ل:* ${text}\n�
 //conn.sendButton(m.chat, captionn, author, link, [['🔄 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 🔄', `#imagen ${text}`]], m)}
 handler.help = ['gimage <query>', 'imagen <query>']
 handler.tags = ['internet', 'tools']
-handler.command = /^(gimage|image|صوره|imagen)$/i
+handler.command = /^(gimage|image|صورة|imagen)$/i
 export default handler
